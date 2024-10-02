@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "83467907411",
+    "project_id": "naturenookmart",
+    "storage_bucket": "naturenookmart.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83467907411:android:062b5a39c1182abeaab1a6",
+        "android_client_info": {
+          "package_name": "nature_nook_app.com"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-WexsdVT09nYRxYclwoUoJ-pLiexpXig"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

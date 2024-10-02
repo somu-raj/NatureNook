@@ -1,0 +1,145 @@
+name: nature_nook_app
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+4
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # create file for private keys and urls
+#  flutter_dotenv:
+
+  # save preferences in local storage of app
+  shared_preferences:
+
+  #check internet connectivity
+  connectivity_plus:
+
+  #notification services
+  firebase_core:
+  firebase_messaging:
+  flutter_local_notifications:
+
+  #get x state manage
+  get:
+
+  #date formatting
+  intl:
+
+  #carousel slider for banner sliding
+  carousel_slider:
+
+  #image picker from gallery or camera
+  image_picker: ^1.1.2
+  image_cropper: ^8.0.2
+
+  dotted_border:
+
+  #share app referral
+  share:
+
+  #rating products
+  flutter_rating_bar:
+
+  # speech to text functionality
+  speech_to_text: ^7.0.0
+
+  #location picker from google map
+  #google_maps_place_picker_mb:
+
+  url_launcher:
+
+  #for google map
+  # google_maps_flutter_ios:
+
+  # download functionality
+  path_provider:
+  pdf:
+
+  # permission
+  permission_handler:
+
+  open_file:
+
+  #video player
+  video_player:
+
+  #for get current location
+  geolocator: ^12.0.0
+  geolocator_android: 4.5.5
+
+  #http client for api requests
+  http:
+
+  #convert html code to pdf form
+  flutter_html:
+  html_to_pdf: ^0.8.1
+
+   # shimmer loading purpose
+  shimmer:
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^3.0.0
+  import_sorter: ^4.6.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+
+  assets:
+#    - naturenook.env
+    - assets/images/
+    - assets/intro_images/
+    - assets/icons/
+    - assets/brands/
+    - assets/icons/Profile/
+    - assets/products/
+    - assets/icons/shipping icons/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

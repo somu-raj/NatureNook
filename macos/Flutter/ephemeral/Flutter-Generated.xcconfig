@@ -1,0 +1,11 @@
+// This is a generated file; do not edit or check into version control.
+FLUTTER_ROOT=C:\Users\rajpo\Downloads\flutter_windows_3.24.2-stable\flutter
+FLUTTER_APPLICATION_PATH=C:\Users\rajpo\Downloads\nature_nook_app_fixed 3\nature_nook_app_fixed
+COCOAPODS_PARALLEL_CODE_SIGN=true
+FLUTTER_BUILD_DIR=build
+FLUTTER_BUILD_NAME=1.0.0
+FLUTTER_BUILD_NUMBER=4
+DART_OBFUSCATION=false
+TRACK_WIDGET_CREATION=true
+TREE_SHAKE_ICONS=false
+PACKAGE_CONFIG=.dart_tool/package_config.json
